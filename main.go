@@ -9,7 +9,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"./handlers"
+	"github.com/Dimedrolity/gcounter-crdt/handlers"
 )
 
 const (

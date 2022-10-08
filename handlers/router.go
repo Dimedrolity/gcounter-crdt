@@ -7,7 +7,7 @@ import (
 	"github.com/gorilla/mux"
 	log "github.com/sirupsen/logrus"
 
-	"../gcounter"
+	"github.com/Dimedrolity/gcounter-crdt/gcounter"
 )
 
 var (

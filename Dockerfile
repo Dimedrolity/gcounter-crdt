@@ -8,7 +8,7 @@ WORKDIR /gcounter
 
 COPY . .
 
-RUN go get -d -v
+RUN go mod tidy
 
 RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -v -a -installsuffix cgo -o /go/bin/gcounter
 

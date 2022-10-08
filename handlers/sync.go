@@ -8,7 +8,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"../gcounter"
+	"github.com/Dimedrolity/gcounter-crdt/gcounter"
 )
 
 // Sync merges multiple GCounters present in a network to get them in sync
